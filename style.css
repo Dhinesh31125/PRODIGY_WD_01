@@ -1,1 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+nav {
+    position: fixed;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 100px 50px;
+    display: block;
+    transition: color 0.3s, background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #7e4d1f;
+    color: #fff;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+section {
+    padding: 500px;
+    margin: 50px 0;
+}
+
+#home {
+    background: #3daadd;
+}
+
+#services {
+    background: #519a1d;
+}
+
+#about {
+    background: #aea713;
+}
+
+#contact {
+    background: #9d5516;
+}
+
+.scrolled {
+    background: #b32661;
+}
